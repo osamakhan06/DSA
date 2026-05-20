@@ -3,7 +3,7 @@ class Queue{
         this.items =[]
     }
 enqueue(...elements){
-    this.items.push(...elements)
+    this.items.push(...elements) // spread operator use for the add the all elements into the array 
 
 }
 dequeue(){
